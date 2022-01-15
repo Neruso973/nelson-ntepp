@@ -22,8 +22,8 @@ function App() {
         </nav>
         <div className="flex-auto ml-72 flex-col">
           <Switch>
-            <Route path="/" element={<About />} />
-            <Route path="/home" element={<Home />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
             <Route path="/skills" element={<Skills />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/cv" element={<Cv />} />

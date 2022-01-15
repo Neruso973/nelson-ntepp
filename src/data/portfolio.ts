@@ -50,7 +50,7 @@ export const portfolio = [
        name: "Spot-on",
        screen: spoton,
        link: "https://github.com/Neruso973/Royal-kingdom",
-       technos: [ "React-TS", "Express", "Mysql", "tailwind" ],
+       technos: [ "React-TS", "Express", "Mysql", "Tailwind" ],
        github: "",
        decripttion:"Projet client: plateforme de VOD et streaming pour salle de sports"
     },
