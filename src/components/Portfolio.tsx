@@ -28,6 +28,7 @@ function Portfolio({
                 (<p className="ml-2 text-white text-lg">{techno}</p>))}
           </span>
         </div>
+        <div className="h-[75%]" />
       </a>
       <button className="absolute right-0 top-0 rounded-bl-xl rounded-tr-xl w-10 h-10 bg-white bg-opacity-30 hover:bg-opacity-40 hover:text-white transform hover:scale-125 transition duration-200 ease-out">
         <a href={github} target="_blank">
