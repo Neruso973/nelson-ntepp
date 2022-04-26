@@ -17,7 +17,7 @@ function Portfolio({
   console.log(description)
   return (
     <div
-      className="filter w-80 h-[20rem] ml-20 my-12 hover:grayscale relative cursor-pointer shadow-lg rounded-2xl bg-center bg-cover transform hover:scale-110 transition duration-200 ease-out" 
+      className="parent filter w-80 h-[20rem] ml-20 my-12 hover:grayscale relative cursor-pointer shadow-lg rounded-2xl bg-center bg-cover transform hover:scale-110 transition duration-200 ease-out" 
       style={{backgroundImage:'url('+screen+')'}}
     >
       <a href={link} target="_blank">
@@ -28,7 +28,7 @@ function Portfolio({
                 (<p className="ml-2 text-white text-lg">{techno}</p>))}
           </span>
         </div>
-        <div className="h-[75%]" />
+        <div className="child h-[75%] invisible">{description}</div>
       </a>
       <button className="absolute right-0 top-0 rounded-bl-xl rounded-tr-xl w-10 h-10 bg-white bg-opacity-30 hover:bg-opacity-40 hover:text-white transform hover:scale-125 transition duration-200 ease-out">
         <a href={github} target="_blank">

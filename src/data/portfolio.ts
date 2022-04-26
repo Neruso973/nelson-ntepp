@@ -16,7 +16,7 @@ export const portfolio = [
     {
        name: "Royal",
        screen: royal,
-       link: "https://github.com/Neruso973/Royal-kingdom",
+       link: "https://neruso973.github.io/Royal-kingdom/index.html",
        technos: [ "html", "css", "JS" ],
        github: "https://github.com/Neruso973/Royal-kingdom",
        decripttion:"Epreuve tech d'entré a la Wildcode School"
