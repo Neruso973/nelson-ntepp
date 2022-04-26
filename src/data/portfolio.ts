@@ -16,7 +16,7 @@ export const portfolio = [
     {
        name: "Royal",
        screen: royal,
-       link: "https://github.com/Neruso973/Royal-kingdom",
+       link: "https://neruso973.github.io/Royal-kingdom/index.html",
        technos: [ "html", "css", "JS" ],
        github: "https://github.com/Neruso973/Royal-kingdom",
        decripttion:"Epreuve tech d'entré a la Wildcode School"
@@ -50,7 +50,7 @@ export const portfolio = [
        name: "Spot-on",
        screen: spoton,
        link: "https://github.com/Neruso973/Royal-kingdom",
-       technos: [ "React-TS", "Express", "Mysql", "tailwind" ],
+       technos: [ "React-TS", "Express", "Mysql", "Tailwind" ],
        github: "",
        decripttion:"Projet client: plateforme de VOD et streaming pour salle de sports"
     },
